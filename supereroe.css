@@ -1,0 +1,219 @@
+ :root {
+--giallo: #ffd405;
+--celeste: #7ccdf3;
+--rosa: #f8cae0;
+--grigio: #bebebe;
+--grigiolite:  #d3d3d3;
+
+}
+ 
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+.font, ::placeholder {
+    font-family: 'Londrina Solid', cursive;
+
+}
+
+.bg-giallo {
+
+    background-color: var(--giallo);
+}
+
+#navbar {
+    z-index: 9999;
+    transition: 1s;
+}
+
+.header {
+    height: 100vh;
+    min-height: 500px;
+    background: url('./imgdue/tre.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+
+}
+
+.spostare {
+
+    margin-left: 80px;
+   
+}
+
+.spostare2 {
+    margin-top: 70px;
+
+}
+
+.ombra {
+    text-shadow: 2px 2px 5px rgb(151, 151, 151)
+}
+
+.bg-celeste {
+
+    background-color: var(--giallo);
+    border: 3px solid  var(--rosa);
+}
+.bg-celeste:hover {
+    background-color: var(--rosa);
+    border: 3px solid  var(--giallo);
+
+    
+}
+
+
+.over-box {
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+
+
+}
+
+.over-img {
+    transition: 1s;
+}
+
+.over-box:hover .over-img {
+    transform: scale(1.1);
+}
+
+.over-text {
+    color: var(--celeste);
+}
+.over-text:hover {
+    color: var(--rosa);
+
+    
+}
+.testogrigio
+{
+    color: var(--grigio);
+}
+
+.bg-seletion
+{
+    height: 600px;
+    background:url('./img/footer.jpg');
+    background-size: cover;
+    background-position:top ;
+}
+.bg-seletion2
+{
+    height: 500px;
+    background:url('./imgdue/fototre.jpg');
+    background-size: cover;
+    background-position:top ;
+}
+.bg-seletion-timer
+{
+    height: 600px;
+    background:url('./img/luitimer.jpg');
+    background-size:cover;
+    background-position:top ;
+    background-attachment: fixed;
+}
+
+.margine {
+    margin-left: 550px;
+}
+.margine2 {
+    margin-top: 460px;
+
+}
+.margine4 {
+    margin-top: 350px;
+
+}
+.margine3 {
+    margin:auto;
+
+}
+
+.product-label {
+    position: relative;
+    top: 170px;
+    left: 0px;
+    padding-left: 6px;
+    width: 120px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    z-index: 100;
+    background-color: var(--grigio)
+}
+
+.sfuma {
+    overflow: hidden;
+}
+
+.sfuma .img-fluid {
+    transition: 0.4s;
+}
+.sfuma .img-fluid:hover {
+    transform: scale(1.1);
+}
+.overflow-x {
+    background-color: var(--giallo);
+}
+
+.boder-botton-giallo {
+    border: none !important;
+    border-radius: 0px;
+    border-bottom: 3px solid var(--giallo) !important;
+
+}
+.testogrigio2 {
+    color: var(--giallo);
+}
+
+.bg-footer {
+    height: 450px;
+    background:url('./imgdue/uno.jpg');
+    background-size: cover;
+    background-position:center ;
+}
+
+.colore {
+    color: var(--giallo)
+}
+
+
+.colore:hover {
+    color: var(--rosa)
+}
+
+.over-text2 {
+    color: var(--giallo);
+}
+.over-text2:hover {
+    color: var(--rosa);
+
+    
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after  {
+    background-image:none !important;
+    background-color: var(--rosa) !important;
+
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after  {
+    background-image:none !important;
+    background-color: white !important;
+    border: 2px solid var(--rosa);
+    border-radius: 4px;
+
+}
+.text-secondary {
+    color: var(--grigiolite) !important;
+}
+
